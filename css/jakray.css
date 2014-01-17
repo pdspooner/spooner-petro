@@ -1,0 +1,75 @@
+/*  Jakray.com Custom CSS  */
+
+/* custom css */
+
+#navig {
+	background-color: #333;
+    background: linear-gradient(rgb(37, 37, 37), rgb(10, 10, 10)) repeat scroll 0% 0% transparent;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0px auto 10px;
+    width: 100%;}
+
+#navig ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding-left: 0px;
+	}
+
+#navig li {
+    float: left;
+    position: relative;
+	list-style: none;}
+	
+#navig a {
+    color: rgb(238, 238, 238);
+    display: block;
+    line-height: 2.75em;
+    padding: 0px 1.125em;
+    text-decoration: none;}
+
+#navig li:hover > a, #navig a:focus {
+	background: #f2f2f2;
+	color: #111;} 
+	
+#navig .current-menu-item > a, #navig .current-menu-ancestor > a, #navig .current_page_item > a, #navig .current_page_ancestor > a {
+    font-weight: bold;}
+	
+.banner {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin-bottom: 0.25em;
+  background: #f2f2f2;}
+  
+ footer {background: #333; color: #FFF;}
+ footer a {color: rgb(238, 238, 238);}
+  
+#logo {padding-top: 0.5em; padding-bottom:0.5em;}
+	
+#contact {
+	color: #333;
+	text-align: right;
+	padding-top: 0.75em;
+	line-height: 1.25em;}
+	
+.small {font-size: 0.85em;}
+.bg-green {background-color:#5DA423}
+.bg-blue {background-color:#2BA6CB}
+.bg-red {background-color:#C60F13}
+.bg-gray {background-color: #707070}
+.pad-top {padding: 0.25em 0;}
+.pad-left {padding-left: 0.25em;}
+.blue {color:#0E53a7;}
+.polaroid {border: solid 8px #707070; margin-right:0.75em;}
+.outline {border: solid 2px #707070;}
+
+
+
+/* modifications to foundation css*/
+.panel {box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);}
+
+h3, h4,h5 {color:#0E53a7;}		
+.panel h3,.panel h4,.panel h5 {color:#0E53a7;}
